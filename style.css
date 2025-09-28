@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .navbar {
+  padding: 0 0 4.5rem;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title .navbar-dark .navbar-brand {
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+#title .navbar-dark .navbar-nav {
+  margin-left: auto;
+}
+
+#title .navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: center;
+}
+#title .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(231, 241, 250);
+}
+
+#title h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+
+
+#title .download-button {
+  margin: 5% 3% 5% 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+#title .download-button .svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+#title .download-button .svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+#title .rotate-25 {
+  transform: rotate(25deg);
+}
+
+#title .iphone-img {
+  width: 23%;
+  /* height: 93%; */
+  right: 25%;
+  position: absolute;
+}
+
+
+@media (max-width: 550px) {
+  #title h1 {
+  font-size: 2rem;
+  }
+
+
+}
+
+@media (max-width: 1028px) {
+
+  #title .iphone-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+   margin-left: 5.5rem;
+  }
+
+
+  #title h1 {
+   text-align: center;
+    }
+}
+
+
+/* Features  */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+#features .feature-box {
+  padding: 5%;
+}
+
+#features .feature-box svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+#features .feature-box .svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+#features .feature-box .icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+#features .feature-box .fa-5x {
+  font-size: 5em;
+}
+
+#features .feature-box .svg-inline--fa {
+  display: inline-block;
+
+  height: 1em;
+
+  vertical-align: -0.125em;
+}
+
+#features .feature-box h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+  font-size: 1.75rem;
+}
+
+#features .feature-box p {
+  font-weight: 400;
+  color: #1f1f1f;
+  font-size: 1.1rem;
+}
+
+/* testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+
+#testimonials .testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press .press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* 
+pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+#pricing .pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing .pricing-column h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 15% 40px;
+}
+#cta h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+#cta .download-button {
+  margin: 5% 3% 5% 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+#cta .download-button .svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+#cta .download-button .svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 15% 20%;
+}
+#footer .social {
+  padding-bottom: 5%;
+}
+
+#footer .social .spanSpace {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#footer .social .spanSpace i {
+  width: 1em;
+}
+
+#footer p a {
+  text-decoration: none;
+}
+
