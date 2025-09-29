@@ -281,3 +281,10 @@ pricing */
   text-decoration: none;
 }
 
+@media (max-width: 400px) {
+
+  #footer {
+   
+    padding: 1rem;
+  }
+}
